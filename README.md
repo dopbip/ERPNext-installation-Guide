@@ -152,7 +152,7 @@ before next step and You must login.
     
 ### STEP 13 initilise the frappe bench & install frappe latest version 
 
-    bench init frappe-bench --frappe-branch version-13
+    bench init frappe-bench --frappe-branch version-13 [edit try this (bench init --frappe-branch=version-13 --python=python3.8 frappe-bench)]
     
     cd frappe-bench/
     bench start
